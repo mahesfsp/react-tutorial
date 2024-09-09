@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import FavoriteColor from './components/FavoriteColor';
 import CounterClass from './components/CounterClass';
 import FavoriteColorClass from './components/FavoriteColorClass';
+import MultipleComponent1 from './components/MultipleComponent1';
+import MultipleComponent2 from './components/MultipleComponent2';
 // import Garage from './components/Garage';
 // import Greeting from './components/Greetings';
 // import Counter from './components/Counter';
@@ -20,7 +22,9 @@ root.render(
 {/* <FavoriteColor/> */}
 {/* <CounterClass/> */}
 {/* <CounterClass/> */}
-<FavoriteColorClass/>
+{/* <FavoriteColorClass/> */}
+{/* <MultipleComponent1/> */}
+<MultipleComponent2/>
   </React.StrictMode>
 );
 
