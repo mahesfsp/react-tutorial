@@ -8,13 +8,15 @@ import CounterClass from './components/CounterClass';
 import FavoriteColorClass from './components/FavoriteColorClass';
 import MultipleComponent1 from './components/MultipleComponent1';
 import MultipleComponent2 from './components/MultipleComponent2';
+import ManageStateAsObject from './components/ManageStateAsObject';
+import ManageStateWithObject from './components/ManageStateWithObject';
 // import Garage from './components/Garage';
 // import Greeting from './components/Greetings';
 // import Counter from './components/Counter';
 // import Header from './components/Header';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     {/* <Garage />
     <Greeting/>
 <Header/>
@@ -24,8 +26,10 @@ root.render(
 {/* <CounterClass/> */}
 {/* <FavoriteColorClass/> */}
 {/* <MultipleComponent1/> */}
-<MultipleComponent2/>
-  </React.StrictMode>
+{/* <MultipleComponent2/> */}
+<ManageStateAsObject/>
+{/* <ManageStateWithObject/> */}
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
