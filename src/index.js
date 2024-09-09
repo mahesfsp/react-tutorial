@@ -3,17 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Garage from './components/Garage';
-import Greeting from './components/Greetings';
-import Counter from './components/Counter';
-import Header from './components/Header';
+import FavoriteColor from './components/FavoriteColor';
+import CounterClass from './components/CounterClass';
+// import Garage from './components/Garage';
+// import Greeting from './components/Greetings';
+// import Counter from './components/Counter';
+// import Header from './components/Header';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Garage />
+    {/* <Garage />
     <Greeting/>
 <Header/>
-    <Counter/>
+    <Counter/> */}
+<FavoriteColor/>
+{/* <CounterClass/> */}
+<CounterClass/>
 
   </React.StrictMode>
 );
