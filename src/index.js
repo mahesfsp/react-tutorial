@@ -11,6 +11,7 @@ import MultipleComponent2 from './components/MultipleComponent2';
 import ManageStateAsObject from './components/ManageStateAsObject';
 import ManageStateWithObject from './components/ManageStateWithObject';
 import UpdateObjectInClassComponent from './components/UpdateObjectInClassComponent';
+import UpdateArrayInState from './components/UpdateArrayInState';
 // import Garage from './components/Garage';
 // import Greeting from './components/Greetings';
 // import Counter from './components/Counter';
@@ -29,7 +30,8 @@ root.render(
 {/* <MultipleComponent1/> */}
 {/* <MultipleComponent2/> */}
 <ManageStateAsObject/>
-<UpdateObjectInClassComponent/>
+{/* <UpdateObjectInClassComponent/> */}
+<UpdateArrayInState/>
 {/* <ManageStateWithObject/> */}
   </>
 );
