@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FavoriteColor from './components/FavoriteColor';
 import CounterClass from './components/CounterClass';
+import FavoriteColorClass from './components/FavoriteColorClass';
 // import Garage from './components/Garage';
 // import Greeting from './components/Greetings';
 // import Counter from './components/Counter';
@@ -16,10 +17,10 @@ root.render(
     <Greeting/>
 <Header/>
     <Counter/> */}
-<FavoriteColor/>
+{/* <FavoriteColor/> */}
 {/* <CounterClass/> */}
-<CounterClass/>
-
+{/* <CounterClass/> */}
+<FavoriteColorClass/>
   </React.StrictMode>
 );
 
