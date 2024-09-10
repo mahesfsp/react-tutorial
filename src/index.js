@@ -13,6 +13,8 @@ import ManageStateWithObject from './components/ManageStateWithObject';
 import UpdateObjectInClassComponent from './components/UpdateObjectInClassComponent';
 import UpdateArrayInState from './components/UpdateArrayInState';
 import TimerUseEffect from './components/TimerUseEffect';
+import Form from './components/FormComponent';
+import SimpleForm from './components/SimpleForm';
 // import Garage from './components/Garage';
 // import Greeting from './components/Greetings';
 // import Counter from './components/Counter';
@@ -33,8 +35,11 @@ root.render(
 {/* <ManageStateAsObject/> */}
 {/* <UpdateObjectInClassComponent/> */}
 {/* <UpdateArrayInState/> */}
-<TimerUseEffect/>
+{/* <TimerUseEffect/> */}
 {/* <ManageStateWithObject/> */}
+
+{/* <SimpleForm/> */}
+<Form/>
   </>
 );
 
