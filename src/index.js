@@ -12,6 +12,7 @@ import ManageStateAsObject from './components/ManageStateAsObject';
 import ManageStateWithObject from './components/ManageStateWithObject';
 import UpdateObjectInClassComponent from './components/UpdateObjectInClassComponent';
 import UpdateArrayInState from './components/UpdateArrayInState';
+import TimerUseEffect from './components/TimerUseEffect';
 // import Garage from './components/Garage';
 // import Greeting from './components/Greetings';
 // import Counter from './components/Counter';
@@ -29,9 +30,10 @@ root.render(
 {/* <FavoriteColorClass/> */}
 {/* <MultipleComponent1/> */}
 {/* <MultipleComponent2/> */}
-<ManageStateAsObject/>
+{/* <ManageStateAsObject/> */}
 {/* <UpdateObjectInClassComponent/> */}
-<UpdateArrayInState/>
+{/* <UpdateArrayInState/> */}
+<TimerUseEffect/>
 {/* <ManageStateWithObject/> */}
   </>
 );
